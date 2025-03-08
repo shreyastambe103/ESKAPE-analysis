@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # ESKAPE Analysis Application
 
 A web application for analyzing microscopic urine sample images to detect ESKAPE category bacteria.
+=======
+# EKAPE Analysis Application
+
+A web application for analyzing microscopic urine sample images to detect EKAPE category bacteria.
+>>>>>>> 14e0549d229dde9587a586ca051c49e5cc18e85e
 
 ## Prerequisites
 
@@ -28,8 +34,13 @@ MONGODB_URI=your_mongodb_connection_string
 ```
 
 Replace `your_mongodb_connection_string` with either:
+<<<<<<< HEAD
 - Local MongoDB: `mongodb://localhost:27017/eskape_analysis`
 - MongoDB Atlas: `mongodb+srv://<username>:<password>@<cluster>.mongodb.net/eskape_analysis`
+=======
+- Local MongoDB: `mongodb://localhost:27017/ekape_analysis`
+- MongoDB Atlas: `mongodb+srv://<username>:<password>@<cluster>.mongodb.net/ekape_analysis`
+>>>>>>> 14e0549d229dde9587a586ca051c49e5cc18e85e
 
 ## Running the Application
 
@@ -47,7 +58,11 @@ This will start both the backend server and frontend development server.
 ## Features
 
 - Upload and analyze microscopic urine sample images
+<<<<<<< HEAD
 - Detect ESKAPE category bacteria
+=======
+- Detect EKAPE category bacteria
+>>>>>>> 14e0549d229dde9587a586ca051c49e5cc18e85e
 - View analysis results with confidence scores
 - Store and retrieve analysis history
 - Responsive design for all devices
@@ -64,4 +79,8 @@ This will start both the backend server and frontend development server.
 - Frontend: React with Vite, TailwindCSS, shadcn/ui
 - Backend: Express.js, Node.js
 - Database: MongoDB with Mongoose
+<<<<<<< HEAD
 - Image Processing: Sharp
+=======
+- Image Processing: Sharp
+>>>>>>> 14e0549d229dde9587a586ca051c49e5cc18e85e

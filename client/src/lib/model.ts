@@ -16,8 +16,8 @@ export async function initializeModel() {
 }
 
 export async function classifyImage(imageElement: HTMLImageElement): Promise<{
-  s_aureus: number;
   e_coli: number;
+  s_aureus: number;
   invalid: number;
 }> {
   try {
@@ -41,8 +41,8 @@ export async function classifyImage(imageElement: HTMLImageElement): Promise<{
 
     // Return probabilities for both classes
     return {
-      s_aureus: probabilities[0],
-      e_coli: probabilities[1],
+      e_coli: probabilities[0],
+      s_aureus: probabilities[1],
       invalid: probabilities[2]
     };
   } catch (error) {
